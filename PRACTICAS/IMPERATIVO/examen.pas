@@ -1,3 +1,12 @@
+{PedidosYa necesita un sistema para obtener estadísticas sobre los pedidos entregados.
+
+Implementar un módulo que lea información de todos los pedidos y los almacene en una estructura de datos eficiente para la búsqueda por número de pedido (entre 1 y 15000), código del delivery (entre 1 y 1000) y monto. La lectura finaliza con el código de delivery 0.
+
+Implementar un módulo que reciba la estructura generada en a) y retorne una estructura que tenga para cada código de delivery la cantidad de pedidos entregados.
+
+Implementar un módulo que reciba la estructura generada en a) y retorne el monto de un pedido cuyo número se recibe como parámetro. En caso que el número pedido no exista retorna -1.}
+
+
 program manzanoreynosoestebannoe;
 const
 	max = 1000;
